@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-underscore-dangle": ["error", { "allow": ["_id", "_doc"] }],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "react/jsx-filename-extension": "off",
+    "import/no-named-as-default": "off",
+    "react/destructuring-assignment": "off",
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
+    "react/no-multi-comp": "off",
+    "global-require": "off",
+    "no-shadow": "off"
+  }
+}
